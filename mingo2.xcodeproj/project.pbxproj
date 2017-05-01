@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C7E803CE859B783202D687E /* Pods_mingo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9C7E9CD554F64DB1CEC1CF /* Pods_mingo2.framework */; };
+		3616EF3D06BB6F95929675C6 /* Pods_mingo2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E4FECDDB2F6A4DFD54C039 /* Pods_mingo2Tests.framework */; };
 		59C8D9521E9F9A2300A20698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C8D9511E9F9A2300A20698 /* AppDelegate.swift */; };
 		59C8D9541E9F9A2300A20698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C8D9531E9F9A2300A20698 /* ViewController.swift */; };
 		59C8D9571E9F9A2300A20698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C8D9551E9F9A2300A20698 /* Main.storyboard */; };
@@ -14,6 +16,13 @@
 		59C8D95C1E9F9A2300A20698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C8D95A1E9F9A2300A20698 /* LaunchScreen.storyboard */; };
 		59C8D9671E9F9A2300A20698 /* mingo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C8D9661E9F9A2300A20698 /* mingo2Tests.swift */; };
 		59C8D9721E9F9A2300A20698 /* mingo2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C8D9711E9F9A2300A20698 /* mingo2UITests.swift */; };
+		59C8D9801E9F9BF600A20698 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = 59C8D97F1E9F9BF600A20698 /* GoogleService-Info .plist */; };
+		59C8D9821E9F9DA100A20698 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C8D9811E9F9DA100A20698 /* LoginViewController.swift */; };
+		59C8D9841EA0BB2800A20698 /* 36169834.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 59C8D9831EA0BB2800A20698 /* 36169834.jpeg */; };
+		59C8D9861EA0C8AF00A20698 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C8D9851EA0C8AF00A20698 /* SettingViewController.swift */; };
+		59C8D9881EA0D15600A20698 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C8D9871EA0D15600A20698 /* EditViewController.swift */; };
+		59C8D98A1EA0D7DF00A20698 /* SnsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C8D9891EA0D7DF00A20698 /* SnsViewController.swift */; };
+		9FDA1293DA78347C4D5A10ED /* Pods_mingo2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1B52047199CAB409AAEB7D /* Pods_mingo2UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B9C7E9CD554F64DB1CEC1CF /* Pods_mingo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mingo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34680BE7DDDCC0D56EFBDBAD /* Pods-mingo2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mingo2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mingo2Tests/Pods-mingo2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4A1B52047199CAB409AAEB7D /* Pods_mingo2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mingo2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBCD1B76FCF66F85AD72169 /* Pods-mingo2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mingo2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mingo2UITests/Pods-mingo2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		59C8D94E1E9F9A2300A20698 /* mingo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mingo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C8D9511E9F9A2300A20698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59C8D9531E9F9A2300A20698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		59C8D96D1E9F9A2300A20698 /* mingo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mingo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C8D9711E9F9A2300A20698 /* mingo2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mingo2UITests.swift; sourceTree = "<group>"; };
 		59C8D9731E9F9A2300A20698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C8D97F1E9F9BF600A20698 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
+		59C8D9811E9F9DA100A20698 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		59C8D9831EA0BB2800A20698 /* 36169834.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 36169834.jpeg; sourceTree = "<group>"; };
+		59C8D9851EA0C8AF00A20698 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		59C8D9871EA0D15600A20698 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		59C8D9891EA0D7DF00A20698 /* SnsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnsViewController.swift; sourceTree = "<group>"; };
+		75E4FECDDB2F6A4DFD54C039 /* Pods_mingo2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mingo2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78EAD63D5985C04E1238F97A /* Pods-mingo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mingo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-mingo2/Pods-mingo2.release.xcconfig"; sourceTree = "<group>"; };
+		A24DE53B021D6580793E7B99 /* Pods-mingo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mingo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mingo2/Pods-mingo2.debug.xcconfig"; sourceTree = "<group>"; };
+		A2668F5C62AE8C070520C070 /* Pods-mingo2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mingo2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mingo2Tests/Pods-mingo2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD2127FAE5B8AD2F42379322 /* Pods-mingo2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mingo2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mingo2UITests/Pods-mingo2UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C7E803CE859B783202D687E /* Pods_mingo2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3616EF3D06BB6F95929675C6 /* Pods_mingo2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDA1293DA78347C4D5A10ED /* Pods_mingo2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570279529DAAF40C0895EC06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A24DE53B021D6580793E7B99 /* Pods-mingo2.debug.xcconfig */,
+				78EAD63D5985C04E1238F97A /* Pods-mingo2.release.xcconfig */,
+				A2668F5C62AE8C070520C070 /* Pods-mingo2Tests.debug.xcconfig */,
+				34680BE7DDDCC0D56EFBDBAD /* Pods-mingo2Tests.release.xcconfig */,
+				4DBCD1B76FCF66F85AD72169 /* Pods-mingo2UITests.debug.xcconfig */,
+				BD2127FAE5B8AD2F42379322 /* Pods-mingo2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		59C8D9451E9F9A2300A20698 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				59C8D9651E9F9A2300A20698 /* mingo2Tests */,
 				59C8D9701E9F9A2300A20698 /* mingo2UITests */,
 				59C8D94F1E9F9A2300A20698 /* Products */,
+				570279529DAAF40C0895EC06 /* Pods */,
+				EB2B8E438E30E263AD09EE87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,12 @@
 				59C8D9581E9F9A2300A20698 /* Assets.xcassets */,
 				59C8D95A1E9F9A2300A20698 /* LaunchScreen.storyboard */,
 				59C8D95D1E9F9A2300A20698 /* Info.plist */,
+				59C8D97F1E9F9BF600A20698 /* GoogleService-Info .plist */,
+				59C8D9811E9F9DA100A20698 /* LoginViewController.swift */,
+				59C8D9831EA0BB2800A20698 /* 36169834.jpeg */,
+				59C8D9851EA0C8AF00A20698 /* SettingViewController.swift */,
+				59C8D9871EA0D15600A20698 /* EditViewController.swift */,
+				59C8D9891EA0D7DF00A20698 /* SnsViewController.swift */,
 			);
 			path = mingo2;
 			sourceTree = "<group>";
@@ -125,6 +173,16 @@
 			path = mingo2UITests;
 			sourceTree = "<group>";
 		};
+		EB2B8E438E30E263AD09EE87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C7E9CD554F64DB1CEC1CF /* Pods_mingo2.framework */,
+				75E4FECDDB2F6A4DFD54C039 /* Pods_mingo2Tests.framework */,
+				4A1B52047199CAB409AAEB7D /* Pods_mingo2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59C8D9761E9F9A2300A20698 /* Build configuration list for PBXNativeTarget "mingo2" */;
 			buildPhases = (
+				5B8F942D193C1449001D9ADF /* [CP] Check Pods Manifest.lock */,
 				59C8D94A1E9F9A2300A20698 /* Sources */,
 				59C8D94B1E9F9A2300A20698 /* Frameworks */,
 				59C8D94C1E9F9A2300A20698 /* Resources */,
+				5AD601E4AD93F281978EF182 /* [CP] Embed Pods Frameworks */,
+				22A4421ECC8A60544D4E8D4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59C8D9791E9F9A2300A20698 /* Build configuration list for PBXNativeTarget "mingo2Tests" */;
 			buildPhases = (
+				A00CBE02807288E22961C8DA /* [CP] Check Pods Manifest.lock */,
 				59C8D95E1E9F9A2300A20698 /* Sources */,
 				59C8D95F1E9F9A2300A20698 /* Frameworks */,
 				59C8D9601E9F9A2300A20698 /* Resources */,
+				9FF17949661270B70CF7A6E4 /* [CP] Embed Pods Frameworks */,
+				C298DA7C481C9DF9DF12273B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59C8D97C1E9F9A2300A20698 /* Build configuration list for PBXNativeTarget "mingo2UITests" */;
 			buildPhases = (
+				13698047E9F3462F480081E1 /* [CP] Check Pods Manifest.lock */,
 				59C8D9691E9F9A2300A20698 /* Sources */,
 				59C8D96A1E9F9A2300A20698 /* Frameworks */,
 				59C8D96B1E9F9A2300A20698 /* Resources */,
+				5FBF857840B98BD73AC47979 /* [CP] Embed Pods Frameworks */,
+				D12D49FA3645301E42CFB946 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +301,8 @@
 			files = (
 				59C8D95C1E9F9A2300A20698 /* LaunchScreen.storyboard in Resources */,
 				59C8D9591E9F9A2300A20698 /* Assets.xcassets in Resources */,
+				59C8D9841EA0BB2800A20698 /* 36169834.jpeg in Resources */,
+				59C8D9801E9F9BF600A20698 /* GoogleService-Info .plist in Resources */,
 				59C8D9571E9F9A2300A20698 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +323,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13698047E9F3462F480081E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22A4421ECC8A60544D4E8D4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mingo2/Pods-mingo2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD601E4AD93F281978EF182 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mingo2/Pods-mingo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B8F942D193C1449001D9ADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FBF857840B98BD73AC47979 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mingo2UITests/Pods-mingo2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF17949661270B70CF7A6E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mingo2Tests/Pods-mingo2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A00CBE02807288E22961C8DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C298DA7C481C9DF9DF12273B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mingo2Tests/Pods-mingo2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D12D49FA3645301E42CFB946 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mingo2UITests/Pods-mingo2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59C8D94A1E9F9A2300A20698 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C8D9881EA0D15600A20698 /* EditViewController.swift in Sources */,
+				59C8D9821E9F9DA100A20698 /* LoginViewController.swift in Sources */,
 				59C8D9541E9F9A2300A20698 /* ViewController.swift in Sources */,
+				59C8D98A1EA0D7DF00A20698 /* SnsViewController.swift in Sources */,
 				59C8D9521E9F9A2300A20698 /* AppDelegate.swift in Sources */,
+				59C8D9861EA0C8AF00A20698 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +619,11 @@
 		};
 		59C8D9771E9F9A2300A20698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24DE53B021D6580793E7B99 /* Pods-mingo2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = mingo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.valurate.mingo2;
@@ -420,8 +634,11 @@
 		};
 		59C8D9781E9F9A2300A20698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EAD63D5985C04E1238F97A /* Pods-mingo2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = mingo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.valurate.mingo2;
@@ -432,6 +649,7 @@
 		};
 		59C8D97A1E9F9A2300A20698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2668F5C62AE8C070520C070 /* Pods-mingo2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +664,7 @@
 		};
 		59C8D97B1E9F9A2300A20698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34680BE7DDDCC0D56EFBDBAD /* Pods-mingo2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +679,7 @@
 		};
 		59C8D97D1E9F9A2300A20698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBCD1B76FCF66F85AD72169 /* Pods-mingo2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = mingo2UITests/Info.plist;
@@ -473,6 +693,7 @@
 		};
 		59C8D97E1E9F9A2300A20698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2127FAE5B8AD2F42379322 /* Pods-mingo2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = mingo2UITests/Info.plist;
@@ -503,6 +724,7 @@
 				59C8D9781E9F9A2300A20698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59C8D9791E9F9A2300A20698 /* Build configuration list for PBXNativeTarget "mingo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +733,7 @@
 				59C8D97B1E9F9A2300A20698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59C8D97C1E9F9A2300A20698 /* Build configuration list for PBXNativeTarget "mingo2UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +742,7 @@
 				59C8D97E1E9F9A2300A20698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
