@@ -160,7 +160,6 @@
                         <outlet property="imageView" destination="d15-b8-NPQ" id="bE7-Gc-aod"/>
                         <outlet property="label" destination="afS-Fq-NLi" id="T2i-bm-gsI"/>
                         <outlet property="profileImageView" destination="ymT-mx-3cU" id="gHS-Oo-w51"/>
-                        <outlet property="profileView" destination="ymT-mx-3cU" id="8PK-Md-lbW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TKh-Vb-NUN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -301,9 +300,6 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
-                                        <connections>
-                                            <action selector="chageProfile:" destination="u8y-5c-w7H" eventType="touchUpInside" id="RoH-55-Io9"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DwM-z1-BAA">
                                         <rect key="frame" x="121" y="564" width="132" height="30"/>
@@ -328,7 +324,6 @@
                                             <color key="titleShadowColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="chageProfile:" destination="u8y-5c-w7H" eventType="touchUpInside" id="MJa-PK-1aj"/>
                                             <action selector="changeProfile:" destination="u8y-5c-w7H" eventType="touchUpInside" id="8p9-EI-jDu"/>
                                         </connections>
                                     </button>
@@ -339,8 +334,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="chageProfile" destination="Bes-qi-hgj" id="oTk-SA-ZEg"/>
-                        <outlet property="profieImageView" destination="36O-5g-IVB" id="Af6-PY-vXX"/>
                         <outlet property="profileImageView" destination="36O-5g-IVB" id="GIz-Eb-SEE"/>
                         <outlet property="usernameTextField" destination="hgf-6M-NgH" id="i8P-ud-PZu"/>
                     </connections>
