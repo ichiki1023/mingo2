@@ -36,7 +36,7 @@ class LoginViewController: UIViewController {
         
         if emailtextField.text == nil || passwordTextField.text == nil{
             
-            let alertViewControler = UIAlertController(title: "おっと", message: "入力欄が空の状態です！", preferredStyle: .alert)
+            let alertViewControler = UIAlertController(title: "エラー", message: "入力欄が空の状態です！", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             
             alertViewControler.addAction(okAction)
@@ -60,7 +60,7 @@ class LoginViewController: UIViewController {
                 
             }else{
                 //失敗
-                let alertViewController = UIAlertController(title: "おっと!", message:error?.localizedDescription, preferredStyle: .alert)
+                let alertViewController = UIAlertController(title: "エラー", message:error?.localizedDescription, preferredStyle: .alert)
                 let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                 
                 alertViewController.addAction(okAction)
@@ -92,7 +92,7 @@ class LoginViewController: UIViewController {
                 
             }else{
                 //失敗
-                let alertViewController = UIAlertController(title: "おっと", message:error?.localizedDescription, preferredStyle: .alert)
+                let alertViewController = UIAlertController(title: "エラー", message:error?.localizedDescription, preferredStyle: .alert)
                 let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                 
                 alertViewController.addAction(okAction)
